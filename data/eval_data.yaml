@@ -1,0 +1,20 @@
+
+synonyms:
+  # entry 0: base word, entry 1: synonym, entry 2: random unrelated word
+  - - "Frau"
+    - "Dame"
+    - "Baum"
+
+homonyms:
+  # entry 0: base word, entry 1 and 2: two possible meanings, entry 3: random unrelated word
+  - - "Ball"
+    - "Fest"
+    - "Kugel"
+    - "Buch"
+
+antonyms:
+  # entry 0: base word, entry 1: antonym, entry 1: synonym
+  - - "Frau"
+    - "Mann"
+    - "Dame"
+
