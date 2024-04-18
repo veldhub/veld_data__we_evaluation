@@ -18,7 +18,46 @@ class ContainerModelLogicTemplate:
         pass
 
 
-def calculate_closeness_score(word_base, word_close, word_distant, cos_sim_func):
+def calculate_closeness_score_of_similarities(sim_base_close, sim_base_distant):
+    """
+    calculates score, comparing two cosine similarities on their supposed position to a base word
+
+    Parameters:
+    sim_base_close (float): The cosine similarity between a base word and a word that is supposed 
+    to be close to the base word
+    sim_base_distant (float): The cosine similarity between a base word and a word that is supposed 
+    to be more distant to the base word
+
+    Returns:
+    float: score, ranging from 1 (best) to -1 (worst)
+    """
+
+    # calculate difference between cosine similarity that is supposed to be close and the one that 
+    # is supposed to be far away. The higher this value, the better the score.
+    score_close_distant = sim_base_close - sim_base_distant
+
+    # calculate difference between a perfect similarity (1) and the actual one of the one that is 
+    # supposed to be close. The lower this value, the better.
+    score_ideal_close = 1 -sim_base_close
+    
+    # Subtract the former (higher=better) with the latter (lower=better). The higher this value,
+    # the better
+    score_combined = score_close_distant - score_ideal_close
+    
+    # Add 0.5 and then multiply by 2 and divide by 3, since there are three values added and 
+    # subtracted each ranging in between 0 and 1,  and one subtraction of 1, the overall range lies
+    # between 1 and -2. Hence add 0.5, to move the potential range to 1.5 and -1.5, then multiply 
+    # by 2 and divide by 3 to move this range to between 1 and -1. This resulting score is positive,
+    # when the supposedely closer similarity is indeed closer and the supposedely more distant one
+    # indeed more distant. The score is negative, if either the closer one is not close enough, or
+    # the supposedely distant one is closer than the supposedely closer one.
+    score_normalized = (score_combined + 0.5) * 2 / 3
+    print(f"score: {score_normalized}")
+
+    return score_normalized
+
+
+def calculate_closeness_score_of_words(word_base, word_close, word_distant, cos_sim_func):
 
     # calculate cosine similarities with given function
     sim_base_close = cos_sim_func(word_base, word_close)
@@ -26,11 +65,7 @@ def calculate_closeness_score(word_base, word_close, word_distant, cos_sim_func)
     print(f"cosine simliarity between '{word_base}' and '{word_close}': {sim_base_close}")
     print(f"cosine simliarity between '{word_base}' and '{word_distant}': {sim_base_distant}")
 
-    # calculate score
-    score = (sim_base_close - sim_base_distant - (1 - sim_base_close) + 0.5) * 2 / 3
-    print(f"score: {score}")
-
-    return score
+    return calculate_closeness_score_of_similarities(sim_base_close, sim_base_distant)
 
 
 def calculate_synonym_score(synonym_data_list, cos_sim_fun):
@@ -45,7 +80,7 @@ def calculate_synonym_score(synonym_data_list, cos_sim_fun):
         word_random = synonym_data[2]
 
         # call function and append result
-        score = calculate_closeness_score(
+        score = calculate_closeness_score_of_words(
             word_base=word_base,
             word_close=word_synonym,
             word_distant=word_random,
@@ -72,13 +107,13 @@ def calculate_homonym_score(homonym_data_list, cos_sim_fun):
         word_random = homonym_data[3]
 
         # call function with both related homonym neighbor words, average result, append
-        score_1 = calculate_closeness_score(
+        score_1 = calculate_closeness_score_of_words(
             word_base=word_base,
             word_close=word_related_1,
             word_distant=word_random,
             cos_sim_func=cos_sim_fun,
         )
-        score_2 = calculate_closeness_score(
+        score_2 = calculate_closeness_score_of_words(
             word_base=word_base,
             word_close=word_related_2,
             word_distant=word_random,
@@ -103,7 +138,7 @@ def calculate_antonym_score(antonym_data_list, cos_sim_fun):
         word_synonym = antonym_data[2]
 
         # call function and append result
-        score = calculate_closeness_score(
+        score = calculate_closeness_score_of_words(
             word_base=word_base,
             word_close=word_synonym,
             word_distant=word_antonym,
