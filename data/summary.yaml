@@ -1,0 +1,14 @@
+fasttext_v1:
+  m2:
+    info:
+      model_data_size: 5.2 GB
+      train_data_md5_hash: 694dae22f07f343608eaa2280a92928f
+      train_data_name: german wikipedia
+      train_data_size: 8.4 GB
+      training_duration (minutes): 351.1
+      training_epochs: 5
+      training_vector_size: 200
+    score:
+      synonyms: -0.42
+      homonyms: -0.19
+      antonyms: -0.35
