@@ -1,0 +1,25 @@
+calculating score for synonyms
+cosine simliarity between 'Frau' and 'Dame': 0.4752253293991089
+cosine simliarity between 'Frau' and 'Baum': 0.19324630498886108
+score: 0.1714695692062378
+------------------------------------------------
+total average score for synonyms: 0.17
+
+calculating score for homonyms
+cosine simliarity between 'Ball' and 'Fest': 0.1487271785736084
+cosine simliarity between 'Ball' and 'Buch': 0.09382008016109467
+score: -0.19757714867591858
+cosine simliarity between 'Ball' and 'Kugel': 0.5024780035018921
+cosine simliarity between 'Ball' and 'Buch': 0.09382008016109467
+score: 0.27409060796101886
+average score: 0.03825672964255014
+------------------------------------------------
+total average score for homonyms: 0.04
+
+calculating score for antonyms
+cosine simliarity between 'Frau' and 'Dame': 0.4752253293991089
+cosine simliarity between 'Frau' and 'Mann': 0.4868163764476776
+score: -0.02424381176630656
+------------------------------------------------
+total average score for antonyms: -0.02
+
