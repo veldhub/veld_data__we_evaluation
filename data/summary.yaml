@@ -12,3 +12,11 @@ fasttext_v1:
       synonyms: -0.42
       homonyms: -0.19
       antonyms: -0.35
+word2vec_v1:
+  m1:
+    info:
+      word2vec_TEMPLATE: null
+    score:
+      synonyms: 0.23
+      homonyms: 0.03
+      antonyms: 0.03
