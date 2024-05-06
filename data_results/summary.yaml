@@ -20,7 +20,7 @@ word2vec_v1:
       homonyms: 0.03
       antonyms: 0.03
   m2:
-    info: null
+    info: {}
     score:
       synonyms: 0.17
       homonyms: 0.04
