@@ -1,6 +1,8 @@
 
 synonyms:
-  # entry 0: base word, entry 1: synonym, entry 2: random unrelated word
+  # - 1: base word
+  # - 2: synonym to 1
+  # - 3: somewhat related word, but further away from 1 than 2 from 1
   - - "Frau"
     - "Dame"
     - "Kind"
@@ -33,7 +35,11 @@ synonyms:
     - "Werkzeug"
 
 homonyms:
-  # entry 0: base word, entry 1 and 2: two possible meanings, entry 3: random unrelated word
+  # - 1: base word
+  # - 2: word that is close to one of multiple meanings of base word, 
+  # - 3: wort that is close to 2
+  # - 4: word that is close to one of multiple meanings of base word, 
+  # - 5: word that is close to 4
   - - "Ball"
     - "Fest"
     - "Versammlung"
@@ -86,7 +92,9 @@ homonyms:
     - "Knoten"
 
 antonyms:
-  # entry 0: base word, entry 1: antonym, entry 1: synonym
+  # - 1: base word
+  # - 2: antonym to 1
+  # - 3: somewhat in between 1 and 2
   - - "Frau"
     - "Mann"
     - "Kind"
