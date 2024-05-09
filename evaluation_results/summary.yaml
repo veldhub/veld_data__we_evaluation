@@ -14,17 +14,17 @@ fasttext_v1:
       antonyms: -0.35
 word2vec_v1:
   m1:
-    info: null
+    info: {}
     score:
-      synonyms: 0.23
-      homonyms: 0.03
-      antonyms: 0.03
+      synonyms: 0.05
+      homonyms: 0.08
+      antonyms: -0.1
   m2:
     info: {}
     score:
-      synonyms: 0.17
-      homonyms: 0.04
-      antonyms: -0.02
+      synonyms: 0.06
+      homonyms: 0.11
+      antonyms: -0.1
   m3:
     info: null
     score:

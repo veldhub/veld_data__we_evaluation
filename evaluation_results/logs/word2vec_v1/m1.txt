@@ -1,25 +1,142 @@
 calculating score for synonyms
 cosine simliarity between 'Frau' and 'Dame': 0.530613124370575
-cosine simliarity between 'Frau' and 'Baum': 0.21690939366817474
-score: 0.22954456011454263
+cosine simliarity between 'Frau' and 'Kind': 0.5071800947189331
+score: 0.023433029651641846
+cosine simliarity between 'Haltestelle' and 'Station': 0.6987448930740356
+cosine simliarity between 'Haltestelle' and 'Haus': 0.212486132979393
+score: 0.48625874519348145
+cosine simliarity between 'Ziel' and 'Zweck': 0.5919961929321289
+cosine simliarity between 'Ziel' and 'Übung': 0.29127612709999084
+score: 0.30072006583213806
+cosine simliarity between 'Mensch' and 'Person': 0.2265026718378067
+cosine simliarity between 'Mensch' and 'Tier': 0.5647867918014526
+score: -0.33828413486480713
+cosine simliarity between 'Kopf' and 'Haupt': 0.2813219726085663
+cosine simliarity between 'Kopf' and 'Arm': 0.5757942199707031
+score: -0.29447224736213684
+cosine simliarity between 'Wand' and 'Mauer': 0.6343911290168762
+cosine simliarity between 'Wand' and 'Dach': 0.4106028079986572
+score: 0.223788321018219
+cosine simliarity between 'Stuhl' and 'Sessel': 0.46606287360191345
+cosine simliarity between 'Stuhl' and 'Tisch': 0.5053910613059998
+score: -0.039328187704086304
+cosine simliarity between 'Angst' and 'Furcht': 0.8512870073318481
+cosine simliarity between 'Angst' and 'Langeweile': 0.7364322543144226
+score: 0.11485475301742554
+cosine simliarity between 'Früchte' and 'Obst': 0.4559931457042694
+cosine simliarity between 'Früchte' and 'Milch': 0.4794751703739166
+score: -0.023482024669647217
+cosine simliarity between 'Apparat' and 'Gerät': 0.47647625207901
+cosine simliarity between 'Apparat' and 'Werkzeug': 0.478144109249115
+score: -0.0016678571701049805
 ------------------------------------------------
-total average score for synonyms: 0.23
+total average score for synonyms: 0.05
 
 calculating score for homonyms
-cosine simliarity between 'Ball' and 'Fest': 0.21348826587200165
-cosine simliarity between 'Ball' and 'Buch': 0.1663496196269989
-score: -0.15958205858866373
+cosine simliarity between 'Ball' and 'Fest': 0.21348828077316284
+cosine simliarity between 'Ball' and 'Versammlung': 0.14502424001693726
+score: 0.06846404075622559
 cosine simliarity between 'Ball' and 'Kugel': 0.5052509903907776
-cosine simliarity between 'Ball' and 'Buch': 0.1663496196269989
-score: 0.22943490743637085
-average score: 0.03492642442385356
+cosine simliarity between 'Ball' and 'Kasten': 0.2863274812698364
+score: 0.21892350912094116
+average score: 0.14369377493858337
+cosine simliarity between 'Bank' and 'Geldinstitut': 0.38126254081726074
+cosine simliarity between 'Bank' and 'Organisation': 0.36287182569503784
+score: 0.0183907151222229
+cosine simliarity between 'Bank' and 'Couch': 0.15183867514133453
+cosine simliarity between 'Bank' and 'Tisch': 0.23243926465511322
+score: -0.08060058951377869
+average score: -0.031104937195777893
+cosine simliarity between 'Note' and 'Musik': 0.2813594341278076
+cosine simliarity between 'Note' and 'Markierung': 0.2813161611557007
+score: 4.3272972106933594e-05
+cosine simliarity between 'Note' and 'Bewertung': 0.3368135988712311
+cosine simliarity between 'Note' and 'Schule': 0.05977225676178932
+score: 0.27704134583473206
+average score: 0.1385423094034195
+cosine simliarity between 'Absatz' and 'Paragraph': 0.629924476146698
+cosine simliarity between 'Absatz' and 'Text': 0.21822144091129303
+score: 0.41170305013656616
+cosine simliarity between 'Absatz' and 'Schuh': 0.23243136703968048
+cosine simliarity between 'Absatz' and 'Bein': 0.06699853390455246
+score: 0.16543284058570862
+average score: 0.2885679602622986
+cosine simliarity between 'Erde' and 'Planet': 0.4750664234161377
+cosine simliarity between 'Erde' and 'Sonne': 0.7302840352058411
+score: -0.25521761178970337
+cosine simliarity between 'Erde' and 'Landwirtschaft': 0.18336650729179382
+cosine simliarity between 'Erde' and 'Samen': 0.30846133828163147
+score: -0.12509483098983765
+average score: -0.1901562213897705
+cosine simliarity between 'Schale' and 'Schüssel': 0.405544638633728
+cosine simliarity between 'Schale' and 'Küche': 0.35768094658851624
+score: 0.04786369204521179
+cosine simliarity between 'Schale' and 'Frucht': 0.6404216289520264
+cosine simliarity between 'Schale' and 'Nahrung': 0.4161432683467865
+score: 0.22427836060523987
+average score: 0.13607102632522583
+cosine simliarity between 'Börse' and 'Handelsplatz': 0.2659798860549927
+cosine simliarity between 'Börse' and 'Behörde': 0.3837592303752899
+score: -0.11777934432029724
+cosine simliarity between 'Börse' and 'Brieftasche': 0.13792386651039124
+cosine simliarity between 'Börse' and 'Handtasche': 0.19035445153713226
+score: -0.05243058502674103
+average score: -0.08510496467351913
+cosine simliarity between 'Gehalt' and 'Lohn': 0.48325949907302856
+cosine simliarity between 'Gehalt' and 'Wert': 0.6539819240570068
+score: -0.17072242498397827
+cosine simliarity between 'Gehalt' and 'Anteil': 0.5724605917930603
+cosine simliarity between 'Gehalt' and 'Quantität': 0.3672260344028473
+score: 0.205234557390213
+average score: 0.01725606620311737
+cosine simliarity between 'Rad' and 'Fahrrad': 0.6934263706207275
+cosine simliarity between 'Rad' and 'Straße': 0.2682829797267914
+score: 0.42514339089393616
+cosine simliarity between 'Rad' and 'Reifen': 0.4907996356487274
+cosine simliarity between 'Rad' and 'Kreis': 0.12291521579027176
+score: 0.36788442730903625
+average score: 0.3965139091014862
+cosine simliarity between 'Band' and 'Buch': 0.3650248348712921
+cosine simliarity between 'Band' and 'Serie': 0.3503114581108093
+score: 0.014713376760482788
+cosine simliarity between 'Band' and 'Schnur': 0.11493111401796341
+cosine simliarity between 'Band' and 'Knoten': 0.07450232654809952
+score: 0.04042878746986389
+average score: 0.02757108211517334
 ------------------------------------------------
-total average score for homonyms: 0.03
+total average score for homonyms: 0.08
 
 calculating score for antonyms
-cosine simliarity between 'Frau' and 'Dame': 0.530613124370575
-cosine simliarity between 'Frau' and 'Mann': 0.5210576057434082
-score: 0.0267790953318278
+cosine simliarity between 'Frau' and 'Kind': 0.5071800947189331
+cosine simliarity between 'Frau' and 'Mann': 0.521057665348053
+score: -0.013877570629119873
+cosine simliarity between 'Tag' and 'Abend': 0.771354079246521
+cosine simliarity between 'Tag' and 'Nacht': 0.46672168374061584
+score: 0.30463239550590515
+cosine simliarity between 'Liebe' and 'Freundschaft': 0.5945237874984741
+cosine simliarity between 'Liebe' and 'Hass': 0.513849675655365
+score: 0.08067411184310913
+cosine simliarity between 'Tod' and 'Komma': 0.07044637948274612
+cosine simliarity between 'Tod' and 'Leben': 0.35736802220344543
+score: -0.2869216501712799
+cosine simliarity between 'Wahrheit' and 'Glaube': 0.5711004137992859
+cosine simliarity between 'Wahrheit' and 'Lüge': 0.7284389138221741
+score: -0.15733850002288818
+cosine simliarity between 'Zukunft' and 'Gegenwart': 0.541327714920044
+cosine simliarity between 'Zukunft' and 'Vergangenheit': 0.6360809803009033
+score: -0.09475326538085938
+cosine simliarity between 'Hitze' and 'Milde': 0.3312421441078186
+cosine simliarity between 'Hitze' and 'Kälte': 0.8096650838851929
+score: -0.47842293977737427
+cosine simliarity between 'Tiefe' and 'Ebene': 0.3235502541065216
+cosine simliarity between 'Tiefe' and 'Höhe': 0.6219039559364319
+score: -0.2983537018299103
+cosine simliarity between 'Friede' and 'Konflikt': 0.40433961153030396
+cosine simliarity between 'Friede' and 'Krieg': 0.45194488763809204
+score: -0.047605276107788086
+cosine simliarity between 'Anfang' and 'Mitte': 0.7803246974945068
+cosine simliarity between 'Anfang' and 'Ende': 0.8288247585296631
+score: -0.04850006103515625
 ------------------------------------------------
-total average score for antonyms: 0.03
+total average score for antonyms: -0.1
 
