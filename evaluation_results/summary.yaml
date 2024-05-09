@@ -9,9 +9,9 @@ fasttext_v1:
       training_epochs: 5
       training_vector_size: 200
     score:
-      synonyms: -0.42
-      homonyms: -0.19
-      antonyms: -0.35
+      synonyms: 0.02
+      homonyms: -0.01
+      antonyms: 0.08
 word2vec_v1:
   m1:
     info: {}
