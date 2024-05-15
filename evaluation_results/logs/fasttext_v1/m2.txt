@@ -116,9 +116,9 @@ score: -0.09920381009578705
 cosine simliarity between 'Liebe' and 'Freundschaft': 0.27384307980537415
 cosine simliarity between 'Liebe' and 'Hass': 0.21640503406524658
 score: 0.057438045740127563
-cosine simliarity between 'Tod' and 'Komma': 0.09980854392051697
+cosine simliarity between 'Tod' and 'Koma': 0.08448836207389832
 cosine simliarity between 'Tod' and 'Leben': -0.014204572886228561
-score: 0.11401312053203583
+score: 0.09869293868541718
 cosine simliarity between 'Wahrheit' and 'Glaube': 0.3283787965774536
 cosine simliarity between 'Wahrheit' and 'Lüge': 0.2401440441608429
 score: 0.08823475241661072
