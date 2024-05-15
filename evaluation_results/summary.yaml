@@ -14,9 +14,16 @@ fasttext_v1:
       antonyms: 0.08
 word2vec_v1:
   m1:
-    info: {}
+    info:
+      min_count: 10
+      model_data_size: 1.4G
+      train_data_md5_hash: 408fd751a7e2c172571a5a9fe7a9c5d6
+      train_data_name: german wikipedia, subset, txt
+      train_data_size: 2.6G
+      training_duration (minutes): 45.5
+      training_vector_size: 200
+      window: 3
     score:
       synonyms: 0.05
-      homonyms: 0.08
-      antonyms: -0.1
-
+      homonyms: 0.07
+      antonyms: -0.09
