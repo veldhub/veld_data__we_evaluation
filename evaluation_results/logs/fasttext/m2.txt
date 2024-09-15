@@ -1,0 +1,142 @@
+calculating score for synonyms
+cosine similarity between 'frau' and 'dame': 0.46096715331077576
+cosine similarity between 'frau' and 'kind': 0.5633946657180786
+score: -0.10242751240730286
+cosine similarity between 'haltestelle' and 'station': 0.5758405327796936
+cosine similarity between 'haltestelle' and 'haus': 0.24143049120903015
+score: 0.33441004157066345
+cosine similarity between 'ziel' and 'zweck': 0.43439581990242004
+cosine similarity between 'ziel' and 'übung': 0.19888651371002197
+score: 0.23550930619239807
+cosine similarity between 'mensch' and 'person': 0.45070165395736694
+cosine similarity between 'mensch' and 'tier': 0.6395849585533142
+score: -0.18888330459594727
+cosine similarity between 'kopf' and 'haupt': 0.43505048751831055
+cosine similarity between 'kopf' and 'arm': 0.46623003482818604
+score: -0.03117954730987549
+cosine similarity between 'wand' and 'mauer': 0.5161036252975464
+cosine similarity between 'wand' and 'dach': 0.4454209804534912
+score: 0.07068264484405518
+cosine similarity between 'stuhl' and 'sessel': 0.3558840751647949
+cosine similarity between 'stuhl' and 'tisch': 0.3853296637535095
+score: -0.0294455885887146
+cosine similarity between 'angst' and 'furcht': 0.7181730270385742
+cosine similarity between 'angst' and 'langeweile': 0.53919517993927
+score: 0.1789778470993042
+cosine similarity between 'früchte' and 'obst': 0.536072313785553
+cosine similarity between 'früchte' and 'milch': 0.43779098987579346
+score: 0.09828132390975952
+cosine similarity between 'apparat' and 'gerät': 0.35443928837776184
+cosine similarity between 'apparat' and 'werkzeug': 0.3553007245063782
+score: -0.000861436128616333
+------------------------------------------------
+total average score for synonyms: 0.05999999865889549
+
+calculating score for homonyms
+cosine similarity between 'ball' and 'fest': 0.13570712506771088
+cosine similarity between 'ball' and 'versammlung': 0.1473286747932434
+score: -0.011621549725532532
+cosine similarity between 'ball' and 'kugel': 0.4488009512424469
+cosine similarity between 'ball' and 'kasten': 0.16227951645851135
+score: 0.28652143478393555
+average score: 0.1374499499797821
+cosine similarity between 'bank' and 'geldinstitut': 0.5820682644844055
+cosine similarity between 'bank' and 'organisation': 0.27579522132873535
+score: 0.30627304315567017
+cosine similarity between 'bank' and 'couch': 0.11424832791090012
+cosine similarity between 'bank' and 'tisch': 0.25501173734664917
+score: -0.14076340198516846
+average score: 0.08275482058525085
+cosine similarity between 'note' and 'musik': 0.35221824049949646
+cosine similarity between 'note' and 'markierung': 0.17771130800247192
+score: 0.17450693249702454
+cosine similarity between 'note' and 'bewertung': 0.4673071503639221
+cosine similarity between 'note' and 'schule': 0.18866047263145447
+score: 0.27864667773246765
+average score: 0.2265768051147461
+cosine similarity between 'absatz' and 'paragraph': 0.45212629437446594
+cosine similarity between 'absatz' and 'text': 0.21655456721782684
+score: 0.2355717271566391
+cosine similarity between 'absatz' and 'schuh': 0.2287425398826599
+cosine similarity between 'absatz' and 'bein': 0.1263452023267746
+score: 0.10239733755588531
+average score: 0.1689845323562622
+cosine similarity between 'erde' and 'planet': 0.5367470979690552
+cosine similarity between 'erde' and 'sonne': 0.6640951037406921
+score: -0.12734800577163696
+cosine similarity between 'erde' and 'landwirtschaft': 0.2202669233083725
+cosine similarity between 'erde' and 'samen': 0.3767654597759247
+score: -0.15649853646755219
+average score: -0.14192327857017517
+cosine similarity between 'schale' and 'schüssel': 0.5175526738166809
+cosine similarity between 'schale' and 'küche': 0.3191298246383667
+score: 0.1984228491783142
+cosine similarity between 'schale' and 'frucht': 0.4953957498073578
+cosine similarity between 'schale' and 'nahrung': 0.3930138051509857
+score: 0.10238194465637207
+average score: 0.15040239691734314
+cosine similarity between 'börse' and 'handelsplatz': 0.36411911249160767
+cosine similarity between 'börse' and 'behörde': 0.3010696470737457
+score: 0.06304946541786194
+cosine similarity between 'börse' and 'brieftasche': 0.2113092690706253
+cosine similarity between 'börse' and 'handtasche': 0.20909549295902252
+score: 0.002213776111602783
+average score: 0.03263162076473236
+cosine similarity between 'gehalt' and 'lohn': 0.48122090101242065
+cosine similarity between 'gehalt' and 'wert': 0.50526362657547
+score: -0.024042725563049316
+cosine similarity between 'gehalt' and 'anteil': 0.3940413296222687
+cosine similarity between 'gehalt' and 'quantität': 0.23928630352020264
+score: 0.15475502610206604
+average score: 0.06535615026950836
+cosine similarity between 'rad' and 'fahrrad': 0.49584612250328064
+cosine similarity between 'rad' and 'straße': 0.18895964324474335
+score: 0.3068864941596985
+cosine similarity between 'rad' and 'reifen': 0.33924052119255066
+cosine similarity between 'rad' and 'kreis': 0.24083517491817474
+score: 0.09840534627437592
+average score: 0.2026459276676178
+cosine similarity between 'band' and 'buch': 0.38841110467910767
+cosine similarity between 'band' and 'serie': 0.32345521450042725
+score: 0.06495589017868042
+cosine similarity between 'band' and 'schnur': 0.20600074529647827
+cosine similarity between 'band' and 'knoten': 0.16517826914787292
+score: 0.04082247614860535
+average score: 0.05288918316364288
+------------------------------------------------
+total average score for homonyms: 0.10000000149011612
+
+calculating score for antonyms
+cosine similarity between 'frau' and 'kind': 0.5633946657180786
+cosine similarity between 'frau' and 'mann': 0.5395119190216064
+score: 0.023882746696472168
+cosine similarity between 'tag' and 'abend': 0.7067359089851379
+cosine similarity between 'tag' and 'nacht': 0.5747804641723633
+score: 0.13195544481277466
+cosine similarity between 'liebe' and 'freundschaft': 0.5891050100326538
+cosine similarity between 'liebe' and 'hass': 0.5232115387916565
+score: 0.06589347124099731
+cosine similarity between 'tod' and 'koma': 0.28835463523864746
+cosine similarity between 'tod' and 'leben': 0.36133673787117004
+score: -0.07298210263252258
+cosine similarity between 'wahrheit' and 'glaube': 0.5638788938522339
+cosine similarity between 'wahrheit' and 'lüge': 0.560860812664032
+score: 0.0030180811882019043
+cosine similarity between 'zukunft' and 'gegenwart': 0.4733906090259552
+cosine similarity between 'zukunft' and 'vergangenheit': 0.5757030844688416
+score: -0.10231247544288635
+cosine similarity between 'hitze' and 'milde': 0.3327890634536743
+cosine similarity between 'hitze' and 'kälte': 0.6620177030563354
+score: -0.32922863960266113
+cosine similarity between 'tiefe' and 'ebene': 0.1765504777431488
+cosine similarity between 'tiefe' and 'höhe': 0.4143866300582886
+score: -0.23783615231513977
+cosine similarity between 'friede' and 'konflikt': 0.32534632086753845
+cosine similarity between 'friede' and 'krieg': 0.4210933446884155
+score: -0.09574702382087708
+cosine similarity between 'anfang' and 'mitte': 0.8134562969207764
+cosine similarity between 'anfang' and 'ende': 0.7739878296852112
+score: 0.039468467235565186
+------------------------------------------------
+total average score for antonyms: -0.05999999865889549
+
