@@ -68,6 +68,25 @@ word2vec:
       synonyms: 0.08
       homonyms: 0.04
       antonyms: -0.07
+  m3:
+    eval_gold_data: eval_data_lowercase.yaml
+    model_details:
+      training_description: 10% AMC model
+      train_data_description: 'AMC data: stripped from non-alphanumeric lines, 10%
+        sampled, lowercased, punctuation removed, cleaned from lines not having enough
+        text'
+      train_data_size: 5.4G
+      train_data_md5_hash: 33167f260dbf99fa3ceebc3563302954
+      training_vector_size: 200
+      training_epochs: 10
+      window: 5
+      min_count: 5
+      training_duration (minutes): 165.3
+      model_data_size: 56M
+    score:
+      synonyms: 0.13
+      homonyms: 0.12
+      antonyms: -0.09
 glove:
   m1:
     eval_gold_data: eval_data_lowercase.yaml
