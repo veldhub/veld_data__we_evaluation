@@ -31,6 +31,40 @@ fasttext:
       synonyms: 0.05999999865889549
       homonyms: 0.10000000149011612
       antonyms: -0.05999999865889549
+  m3:
+    eval_gold_data: eval_data_lowercase.yaml
+    model_details:
+      training_description: 10% AMC model
+      train_data_description: 'AMC data: stripped from non-alphanumeric lines, 10%
+        sampled, lowercased, punctuation removed, cleaned from lines not having enough
+        text'
+      train_data_size: 5.4G
+      train_data_md5_hash: 33167f260dbf99fa3ceebc3563302954
+      training_epochs: 10
+      training_vector_size: 200
+      training_duration (minutes): 317.3
+      model_data_size: 3.9G
+    score:
+      synonyms: 0.12999999523162842
+      homonyms: 0.1599999964237213
+      antonyms: -0.07000000029802322
+  m4:
+    eval_gold_data: eval_data_lowercase.yaml
+    model_details:
+      training_description: 10% AMC model
+      train_data_description: 'AMC data: stripped from non-alphanumeric lines, 10%
+        sampled, lowercased, punctuation removed, cleaned from lines not having enough
+        text'
+      train_data_size: 5.4G
+      train_data_md5_hash: 33167f260dbf99fa3ceebc3563302954
+      training_epochs: 50
+      training_vector_size: 200
+      training_duration (minutes): 2389.5
+      model_data_size: 3.9G
+    score:
+      synonyms: 0.11999999731779099
+      homonyms: 0.15000000596046448
+      antonyms: -0.09000000357627869
 word2vec:
   m1:
     eval_gold_data: eval_data_lowercase.yaml
@@ -153,3 +187,25 @@ glove:
       synonyms: 0.07
       homonyms: 0.01
       antonyms: -0.12
+  m3:
+    eval_gold_data: eval_data_lowercase.yaml
+    model_details:
+      training_description: 1% AMC model
+      train_data_description: 1% of AMC
+      train_data_size: 552M
+      train_data_md5_hash: 05514cc05c6d61fcb3b20076372e2b8a
+      verbose: '2'
+      memory: '4.0'
+      vocab_min_count: '5'
+      vector_size: '200'
+      max_iter: '10'
+      window_size: '15'
+      binary: '2'
+      num_threads: '14'
+      x_max: '10'
+      training_duration (minutes): 24.8
+      model_data_size: 9.1G
+    score:
+      synonyms: 0.06
+      homonyms: 0.09
+      antonyms: -0.11
