@@ -65,6 +65,23 @@ fasttext:
       synonyms: 0.11999999731779099
       homonyms: 0.15000000596046448
       antonyms: -0.09000000357627869
+  m5:
+    eval_gold_data: eval_data_lowercase.yaml
+    model_details:
+      training_description: 10% AMC model
+      train_data_description: 'AMC data: stripped from non-alphanumeric lines, 10%
+        sampled, lowercased, punctuation removed, cleaned from lines not having enough
+        text'
+      train_data_size: 5.4G
+      train_data_md5_hash: 33167f260dbf99fa3ceebc3563302954
+      training_epochs: 10
+      training_vector_size: 300
+      training_duration (minutes): 393.1
+      model_data_size: 5.8G
+    score:
+      synonyms: 0.14000000059604645
+      homonyms: 0.15000000596046448
+      antonyms: -0.07999999821186066
 word2vec:
   m1:
     eval_gold_data: eval_data_lowercase.yaml
