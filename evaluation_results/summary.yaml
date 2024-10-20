@@ -176,6 +176,23 @@ word2vec:
       synonyms: 0.14
       homonyms: 0.12
       antonyms: -0.09
+  m6:
+    eval_gold_data: eval_data_lowercase.yaml
+    model_details:
+      training_description: 100% AMC model
+      train_data_description: null
+      train_data_size: 54G
+      train_data_md5_hash: 7e9b50396f77babeef827beff7e506ef
+      training_vector_size: 300
+      training_epochs: 10
+      window: 5
+      min_count: 5
+      training_duration (minutes): 546.3
+      model_data_size: 261M
+    score:
+      synonyms: 0.14
+      homonyms: 0.12
+      antonyms: -0.09
 glove:
   m1:
     eval_gold_data: eval_data_lowercase.yaml
