@@ -202,7 +202,7 @@ word2vec:
       training_epochs: 10
       window: 5
       min_count: 5
-      training_duration (minutes): 546.3
+      training_duration (minutes): 2221
       model_data_size: 261M
     score:
       synonyms: 0.14
