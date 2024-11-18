@@ -3,17 +3,18 @@ fasttext:
     eval_gold_data: eval_data_lowercase.yaml
     model_details:
       training_description: test training
-      train_data_description: 10% sample of german wikipedia, single txt, one sentence
-        per line, lowercased, removed punctuation
-      train_data_size: 685M
-      train_data_md5_hash: 9683602ee186844125ed90eff1fb2dff
+      train_data_description: sample wikipedia, single txt, one sentence per line,
+        lowercased, removed punctuation
+      train_data_size: 686M
+      train_data_md5_hash: 05e9002eeaab646a6d82af02eaf86a13
       training_epochs: 10
       training_vector_size: 200
-      training_duration (minutes): 37.0
-      model_data_size: 2.4G
+      training_window_size: 5
+      training_duration (minutes): 37.4
+      model_data_size: 4.0G
     score:
-      synonyms: 0.03999999910593033
-      homonyms: 0.09000000357627869
+      synonyms: 0.05000000074505806
+      homonyms: 0.10000000149011612
       antonyms: -0.03999999910593033
   m2:
     eval_gold_data: eval_data_lowercase.yaml
@@ -42,6 +43,7 @@ fasttext:
       train_data_md5_hash: 33167f260dbf99fa3ceebc3563302954
       training_epochs: 10
       training_vector_size: 200
+      training_window_size: 5
       training_duration (minutes): 317.3
       model_data_size: 3.9G
     score:
@@ -59,7 +61,8 @@ fasttext:
       train_data_md5_hash: 33167f260dbf99fa3ceebc3563302954
       training_epochs: 50
       training_vector_size: 200
-      training_duration (minutes): 2389.5
+      training_window_size: 5
+      training_duration (minutes): 1585
       model_data_size: 3.9G
     score:
       synonyms: 0.11999999731779099
@@ -76,6 +79,7 @@ fasttext:
       train_data_md5_hash: 33167f260dbf99fa3ceebc3563302954
       training_epochs: 10
       training_vector_size: 300
+      training_window_size: 5
       training_duration (minutes): 393.1
       model_data_size: 5.8G
     score:
@@ -91,6 +95,7 @@ fasttext:
       train_data_md5_hash: 7e9b50396f77babeef827beff7e506ef
       training_epochs: 10
       training_vector_size: 300
+      training_window_size: 5
       training_duration (minutes): 4731
       model_data_size: 18G
     score:
@@ -106,12 +111,29 @@ fasttext:
       train_data_md5_hash: 7e9b50396f77babeef827beff7e506ef
       training_epochs: 10
       training_vector_size: 200
+      training_window_size: 5
       training_duration (minutes): 3380
       model_data_size: 12G
     score:
       synonyms: 0.14000000059604645
       homonyms: 0.15000000596046448
       antonyms: -0.07999999821186066
+  m8:
+    eval_gold_data: eval_data_lowercase.yaml
+    model_details:
+      training_description: 100% AMC model
+      train_data_description: null
+      train_data_size: 54G
+      train_data_md5_hash: 7e9b50396f77babeef827beff7e506ef
+      training_epochs: 10
+      training_vector_size: 200
+      training_window_size: 10
+      training_duration (minutes): 4923
+      model_data_size: 12G
+    score:
+      synonyms: 0.11999999731779099
+      homonyms: 0.15000000596046448
+      antonyms: -0.05999999865889549
 word2vec:
   m1:
     eval_gold_data: eval_data_lowercase.yaml
@@ -163,7 +185,7 @@ word2vec:
       window: 5
       min_count: 5
       training_duration (minutes): 165.3
-      model_data_size: 56M
+      model_data_size: 2.4G
     score:
       synonyms: 0.13
       homonyms: 0.12
@@ -182,7 +204,7 @@ word2vec:
       window: 5
       min_count: 5
       training_duration (minutes): 786.8
-      model_data_size: 56M
+      model_data_size: 2.4G
     score:
       synonyms: 0.13
       homonyms: 0.12
@@ -201,7 +223,7 @@ word2vec:
       window: 5
       min_count: 5
       training_duration (minutes): 188.4
-      model_data_size: 56M
+      model_data_size: 3.6G
     score:
       synonyms: 0.14
       homonyms: 0.12
@@ -217,8 +239,8 @@ word2vec:
       training_epochs: 10
       window: 5
       min_count: 5
-      training_duration (minutes): 2221
-      model_data_size: 261M
+      training_duration (minutes): 4573
+      model_data_size: 17G
     score:
       synonyms: 0.14
       homonyms: 0.12
@@ -235,11 +257,28 @@ word2vec:
       window: 5
       min_count: 5
       training_duration (minutes): 1915
-      model_data_size: 261M
+      model_data_size: 11G
     score:
       synonyms: 0.14
       homonyms: 0.11
       antonyms: -0.09
+  m8:
+    eval_gold_data: eval_data_lowercase.yaml
+    model_details:
+      training_description: 100% AMC model
+      train_data_description: null
+      train_data_size: 54G
+      train_data_md5_hash: 7e9b50396f77babeef827beff7e506ef
+      training_vector_size: 300
+      training_epochs: 10
+      window: 10
+      min_count: 5
+      training_duration (minutes): 10128
+      model_data_size: 17G
+    score:
+      synonyms: 0.14
+      homonyms: 0.13
+      antonyms: -0.1
 glove:
   m1:
     eval_gold_data: eval_data_lowercase.yaml
