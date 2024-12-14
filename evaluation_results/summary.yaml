@@ -134,6 +134,24 @@ fasttext:
       synonyms: 0.11999999731779099
       homonyms: 0.15000000596046448
       antonyms: -0.05999999865889549
+  m9:
+    eval_gold_data: eval_data_lowercase.yaml
+    model_details:
+      training_description: 100% AMC model
+      train_data_description: 'Entire AMC: unique sentences, stripped from non-alphanumeric
+        lines, lowercased, punctuation removed, removed sentences with too many non-alphanumeric
+        characters.'
+      train_data_size: 54G
+      train_data_md5_hash: 7e9b50396f77babeef827beff7e506ef
+      training_epochs: 10
+      training_vector_size: 300
+      training_window_size: 10
+      training_duration (minutes): 6513
+      model_data_size: 18G
+    score:
+      synonyms: 0.12999999523162842
+      homonyms: 0.1599999964237213
+      antonyms: -0.07999999821186066
 word2vec:
   m1:
     eval_gold_data: eval_data_lowercase.yaml
@@ -278,6 +296,25 @@ word2vec:
     score:
       synonyms: 0.14
       homonyms: 0.13
+      antonyms: -0.1
+  m9:
+    eval_gold_data: eval_data_lowercase.yaml
+    model_details:
+      training_description: 100% AMC model
+      train_data_description: 'Entire AMC: unique sentences, stripped from non-alphanumeric
+        lines, lowercased, punctuation removed, removed sentences with too many non-alphanumeric
+        characters.'
+      train_data_size: 54G
+      train_data_md5_hash: 7e9b50396f77babeef827beff7e506ef
+      training_vector_size: 200
+      training_epochs: 10
+      window: 10
+      min_count: 5
+      training_duration (minutes): 1847
+      model_data_size: 261M
+    score:
+      synonyms: 0.14
+      homonyms: 0.12
       antonyms: -0.1
 glove:
   m1:
