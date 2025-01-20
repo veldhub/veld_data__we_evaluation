@@ -1,4 +1,4 @@
-# veld_data__wordembeddings_evaluation
+# ![veld chain](https://raw.githubusercontent.com/veldhub/.github/refs/heads/main/images/symbol_V_letter.png) veld_data__wordembeddings_evaluation
 
 This repo contains evaluation summaries, logs, statistics and visualization regarding static 
 wordembedding models, mostly trained at 
